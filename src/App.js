@@ -7,7 +7,7 @@ import "react-bootstrap-table-next/dist/react-bootstrap-table2.min.css";
 import BootstrapTable from "react-bootstrap-table-next";
 import paginationFactory from "react-bootstrap-table2-paginator";
 
-export const productsGenerator = quantity => {
+export const productsGenerator = (quantity) => {
   const items = [];
   for (let i = 0; i < quantity; i++) {
     items.push({ id: i, name: `Item name ${i}`, price: 2100 + i });
@@ -15,7 +15,7 @@ export const productsGenerator = quantity => {
   return items;
 };
 
-const products = productsGenerator(100);
+const products = productsGenerator(1000);
 
 const columns = [
   {

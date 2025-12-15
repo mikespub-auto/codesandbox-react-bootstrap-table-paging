@@ -9,7 +9,7 @@
     "react": "19.2.1",
     "react-bootstrap-table-next": "4.0.3",
     "react-bootstrap-table2-paginator": "2.1.2",
-    "react-dom": "19.2.1",
+    "react-dom": "19.2.3",
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
